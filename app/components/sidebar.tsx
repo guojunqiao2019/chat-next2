@@ -155,10 +155,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          ChatGPT 镜像站
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          售后微信：OpenAicome
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -181,9 +181,9 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : Locale.Plugin.Name}
+          text={shouldNarrow ? undefined : "购买商店"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
+          onClick={() => window.open("https://edugithub.top/","_blank")}
           shadow
         />
       </div>

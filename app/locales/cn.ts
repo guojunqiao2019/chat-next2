@@ -7,8 +7,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页[选择自定义接口栏]检查 API Key 是否配置正确。"
-      : "检测到无效 API Key，请前往[设置](/#/settings)页[选择自定义接口栏]检查 API Key 是否配置正确。设置一次即可，以后默认此设备登录无需设置第二次。如有问题，请联系管理微信: 0penAicome ", },
+      ? "检测到无效 API Key，请前往[设置](/#/settings)页选择（自定义接口）检查 API Key 是否配置正确。"
+      : "检测到无效 API Key，请前往[设置](/#/settings)页选择（自定义接口）检查 API Key 是否配置正确。设置一次即可，以后默认此设备登录无需设置第二次。如有问题，请联系管理微信: 0penAicome ", },
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",

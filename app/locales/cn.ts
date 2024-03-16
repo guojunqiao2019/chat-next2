@@ -7,8 +7,9 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "开始聊天前，请前往设置页填入你自己的 0penAI API Key。如有问题，请联系管理微信:0penAicome 在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      ? "检测到无效 API Key，请前往[设置][选择自定义接口栏]检查 API Key 是否配置正确。"
+      : "请前往[设置][选择自定义接口栏]检查 设置一次即可，以后默认此设备登录无需设置第二次。"
+      : "如有问题，请联系管理微信:0penAicome 在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Auth: {
     Title: "需要密码",
